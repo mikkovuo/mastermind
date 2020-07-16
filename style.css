@@ -1,0 +1,89 @@
+aside{
+    padding: 10px;
+    width: 70px;
+    float: left;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin: 10px;
+}
+main{
+    float: left;
+    width: 190px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.colorbox{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-right: 2px;
+    
+}
+.colorbox:hover,input:hover{
+    cursor: pointer;
+}
+
+.guessBox{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.resultBox{
+    display: inline-block;
+    width: 72px;
+    height: 18px;
+    border-radius: 5px;
+    background-color: burlywood;
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.blackCircle{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 2px;
+
+}
+
+.whiteCircle{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 2px;
+
+}
+
+
+#colorbox0{
+    background-color: crimson;
+}
+#colorbox1{
+    background-color: cornflowerblue;
+}
+#colorbox2{
+    background-color: greenyellow;
+}
+#colorbox3{
+    background-color: indigo;
+}
+#colorbox4{
+    background-color: hotpink;
+}
+#colorbox5{
+    background-color: saddlebrown;
+}
